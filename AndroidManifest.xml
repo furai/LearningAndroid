@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="pl.furai.learningandroid.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="pl.furai.learningandroid.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.furai.learningandroid.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
